@@ -1,5 +1,7 @@
 # Repository for class project
 
+`npm install` will set up environment to run
+
 `npm run build` builds the application to `public/bundle.js`, along with a sourcemap file for debugging.
 
 `npm start` launches a server, using [serve](https://github.com/zeit/serve). Navigate to [localhost:3000](http://localhost:3000).
