@@ -1,4 +1,7 @@
-# Repository for class project
+# Repository for first version single page app
+
+`npm install` will make sure its set up.
+
 
 `npm run build` builds the application to `public/bundle.js`, along with a sourcemap file for debugging.
 
