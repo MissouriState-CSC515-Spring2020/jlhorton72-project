@@ -1,25 +1,28 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+// need imports for pictures
+
+import Recents from './Components/Recents/RecentPics';
+import DogCategory from './Components/DogCategory/DogCategory';
+import PictureDescription from './Components/Description/Description';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Categories></Categories>
+        <Switch>
+          <Route path = '/dogcategory' component ={DogCategory}></Route>
+          <Route path = '/home' component ={Recents}></Route>
+          <Route path = '/picDesc' component = {PictureDescription}></Route>
+          <Route path = '/' exact component = {Recents}></Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
