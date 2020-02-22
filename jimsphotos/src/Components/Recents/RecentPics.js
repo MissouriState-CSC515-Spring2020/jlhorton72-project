@@ -1,5 +1,5 @@
 import React from 'react';
-import './RecentPics.css';
+
 import Dog01 from './ComponentImages/dog01.jpg';
 import Dog2 from './ComponentImages/dog2.jpg';
 import Dog3 from './ComponentImages/dog3.jpg';
@@ -19,8 +19,8 @@ import { Link } from 'react-router-dom';
 const RecentPics = (props) => {
 	return (
 		<div>
-			<h2 class='center-align'>Welcome to Mitch's Social Media Hub!
-		<i class="material-icons" id='iconSize'>share</i>
+			<h2 class='center-align'>Beautiful Pictures of Animals!
+		<i class="material-icons" id='iconSize'></i>
 			</h2>
 			<div className="row">
 				<h4 className='categoryHead'>

@@ -1,8 +1,8 @@
 import React from 'react';
-import './Description.css';
+
 import Dog4 from './ComponentImages/dog4.jpg';
 
-const PicDescription = () => {
+const PictureDescription = () => {
 	return (
 		<div>
 			<title>Image Description</title>
@@ -18,4 +18,4 @@ const PicDescription = () => {
 		</div>
 	)
 }
-export default PicDescription;
+export default PictureDescription;

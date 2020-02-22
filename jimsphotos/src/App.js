@@ -14,11 +14,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Categories></Categories>
+        
         <Switch>
           <Route path = '/dogcategory' component ={DogCategory}></Route>
           <Route path = '/home' component ={Recents}></Route>
-          <Route path = '/picDesc' component = {PictureDescription}></Route>
+          <Route path = '/pictureDescription' component = {PictureDescription}></Route>
           <Route path = '/' exact component = {Recents}></Route>
         </Switch>
       </div>
