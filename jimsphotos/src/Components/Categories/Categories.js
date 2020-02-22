@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Categories.css';
 import DogCategory from './ComponentImages/dogCategory.jpg';
 import CatCategory from './ComponentImages/catCategory.jpg';
 import BirdCategory from './ComponentImages/birdCategory.jpg';
