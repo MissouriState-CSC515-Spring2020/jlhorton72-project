@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 
 const DogCategory = (props) => {
     return (
-        <div>
+        <div className="page">
             <title>Dog Pics</title>
             <div className="row">
                 <h3 className="">

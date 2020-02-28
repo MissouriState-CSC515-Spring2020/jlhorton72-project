@@ -14,9 +14,14 @@ code {
 
 .imgStyle {
   width: 100%;
-  height: 45%;
+  height: 65%;
 }
 
 .row {
   padding-top: 10px;
+}
+
+.page{
+  background-color: burlywood;
+
 }

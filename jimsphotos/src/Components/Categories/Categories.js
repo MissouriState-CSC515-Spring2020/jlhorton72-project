@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 const Categories = (props) => {
     return (
-        <div>
+        <div className="page">
             <title>Dog Category</title>
             <nav>
                 <div className = 'row'>

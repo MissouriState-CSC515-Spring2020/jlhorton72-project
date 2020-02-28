@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom';
 
 const RecentPics = (props) => {
 	return (
-		<div>
+		<div className="page">
 			<h2 class='center-align'>Beautiful Pictures of Animals!
 		<i class="material-icons" id='iconSize'></i>
 			</h2>

@@ -3,7 +3,7 @@ import Dog4 from './ComponentImages/dog4.jpg';
 
 const PictureDescription = () => {
 	return (
-		<div>
+		<div className="page">
 			<title>Image Description</title>
 			<div className='row'>
 				<div className='col s4'></div>
