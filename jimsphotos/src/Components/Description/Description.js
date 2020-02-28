@@ -9,7 +9,7 @@ const PictureDescription = () => {
 				<div className='col s4'></div>
 				<div className='col s4'>
 				<h4>Picture Description</h4>
-					<img src={Dog4} className='imgStyle'></img>
+					<img src={Dog4} className='imgStyle' alt=''></img>
 				</div>
 				<div className='col s4'></div>
 			</div>
