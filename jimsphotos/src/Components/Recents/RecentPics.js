@@ -22,10 +22,11 @@ const RecentPics = (props) => {
 			<h2 class='center-align'>Beautiful Pictures of Animals!
 		<i class="material-icons" id='iconSize'></i>
 			</h2>
-			<div className="row">
-				<h4 className='categoryHead'>
+			<h4 className='categoryHead'>
 					Recent Pics
 				</h4>
+			<div className="row">
+
 				<div className="col s2">
 				<Link to='/pictureDescription'>
 					<img src={Dog01} className='imgStyle' alt='American Pitbull'></img>

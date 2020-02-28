@@ -1,5 +1,4 @@
 import React from 'react';
-//import'./Components/Categories/Categories.css';
 import Dog4 from './ComponentImages/dog4.jpg';
 
 const PictureDescription = () => {
