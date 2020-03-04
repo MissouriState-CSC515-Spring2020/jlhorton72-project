@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 // need imports for pictures
-
+import Catrergories from './Components/Categories/Categories';
 import Recents from './Components/Recents/RecentPics';
 import DogCategory from './Components/DogCategory/DogCategory';
 import PictureDescription from './Components/Description/Description';
