@@ -11,18 +11,18 @@ const Categories = (props) => {
             <nav>
                 <div className = 'row'>
                     <div className = 'col s4'>
-                        <Link to ='/dogCategory'>
-                            <div>Dogs</div>
+                        <Link to ='/myOtherVideos'>
+                            <div>Other Videos</div>
                         </Link>
                     </div>
                     <div className = 'col s4'>
-                        <Link to ='/dogCategory'>
-                            <div>Cats</div>
+                        <Link to ='/myVideos'>
+                            <div>Videos</div>
                         </Link>
                     </div>
                     <div className = 'col s4'>
-                        <Link to ='/dogCategory'>
-                            <div>Birds</div>
+                        <Link to ='/videoDetails'>
+                            <div>Video Details</div>
                         </Link>
                     </div>
                 </div>
