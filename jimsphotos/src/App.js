@@ -14,9 +14,7 @@ import Recents from './Components/Recents/RecentPics';
 import DogCategory from './Components/DogCategory/DogCategory';
 import PictureDescription from './Components/Description/Description';
 
-// need new imports for new videos
 
-// need to replace the paths for the videos
 function App() {
   return (
     <Router>

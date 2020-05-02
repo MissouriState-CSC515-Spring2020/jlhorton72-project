@@ -12,14 +12,9 @@ class Post extends Component {
 		}
 	}
 
-    // need url here for the get
 componentDidMount(){
-    axios.get('https://www.googleapis.com/youtube/v3/search?part=id&q=puppies&type=video&maxResults=16&key=AIzaSyAHm08yXSKTUw_iVJtKNPZNE5vBUBX0Vg4')
-	.then(response =>{
-		this.setState({results: response.data.items, url: "https://www.youtube.com/embed/"})
-		// this.setState({posts: response.data.items[0].snippet.playlistId,
-		// url: "https://www.youtube.com/embed/"})
-		// this.setState({posts:response.data})
+    axios.get('https://www.googleapis.com/youtube/v3/search?part=id&q=puppies&type=video&maxResults=16&key=AIzaSyAHm08yXSKTUw_iVJtKNPZNE5vBUBX0Vg4').then(response =>{
+		this.setState({results: response.data.items, url: "https://www.youtube.com/embed/"})	
 	})
 	.catch(error =>{
 		console.log(error)
@@ -35,7 +30,6 @@ render(){
 	<div className = 'row'> 
 	{
 		results.map(result => <div key = {result.id}> <div className ='col s3'> <iframe src = {url + result.id.videoId}></iframe></div></div>)
-		// <iframe>{results[0]}</iframe>
 	} 
 	</div>
 	</div>
