@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import axios from 'axios'
+import React, {Component} from 'react';
+import axios from 'axios';
 
 class PostTwo extends Component {
     constructor(props){
@@ -30,6 +30,7 @@ class PostTwo extends Component {
                 <div className = 'labelStyle'> Newest Videos: </div>
                 <div className = 'row'>
                     {
+                          // eslint-disable-next-line
                         results.map(result => <div key = {result.id + '1'}><div className = 'col s3'><iframe src = {url + result.id.videoId}></iframe></div></div>)
                     }
                 </div>

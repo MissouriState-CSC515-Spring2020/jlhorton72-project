@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import axios from 'axios'
+import React, { Component } from 'react';
+import axios from 'axios';
 
 class PostThree extends Component {
 	constructor(props){
@@ -55,6 +55,7 @@ render(){
 	<div className = 'row'> 
 	<div className = 'center-align'>
 	{
+		  // eslint-disable-next-line
 		results.map(result => <div key = {result.id + '2'}><div>{info.headers.date}</div> <div className ='col s3'> <iframe src = {url + result.id.videoId}></iframe></div>
 		</div>)
 		// <iframe>{results[0]}</iframe>

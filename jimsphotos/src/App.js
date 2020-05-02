@@ -5,9 +5,9 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Posts from './Components/Posts/Posts'
-import VidInfo from './Components/VideoInfo/VideoInfo'
-import RecentVids from './Components/RecentVideos/RecentVideo'
+import Posts from './Components/Posts/Posts';
+import VidInfo from './Components/VideoInfo/VideoInfo';
+import RecentVids from './Components/RecentVideos/RecentVideo';
 
 import Catrergories from './Components/Categories/Categories';
 import Recents from './Components/Recents/RecentPics';

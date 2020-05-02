@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import axios from 'axios'
+import React, { Component } from 'react';
+import axios from 'axios';
 
 
 class Post extends Component {
@@ -29,6 +29,7 @@ render(){
 	<div className ='labelStyle'> Lastest Videos: </div>
 	<div className = 'row'> 
 	{
+        // eslint-disable-next-line
 		results.map(result => <div key = {result.id}> <div className ='col s3'> <iframe src = {url + result.id.videoId}></iframe></div></div>)
 	} 
 	</div>
