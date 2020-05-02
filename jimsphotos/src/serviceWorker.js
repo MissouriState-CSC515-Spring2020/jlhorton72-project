@@ -133,7 +133,7 @@ export function unregister() {
     navigator.serviceWorker.ready
       .then(registration => {
         registration.unregister();
-      })
+      }) // may not need catch
       .catch(error => {
         console.error(error.message);
       });

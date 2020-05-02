@@ -19,11 +19,11 @@ import { Link } from 'react-router-dom';
 const RecentPics = (props) => {
 	return (
 		<div className="page">
-			<h2 class='center-align'>Beautiful Pictures of Animals!
+			<h2 class='center-align'>Random Videos I haven't yet Decided on!
 		<i class="material-icons" id='iconSize'></i>
 			</h2>
 			<h4 className='categoryHead'>
-					Recent Pics
+					Recent Videos
 				</h4>
 			<div className="row">
 

@@ -1,28 +1,32 @@
 import React from 'react';
-//import logo from './logo.svg';
+
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'bootstrap/dist/css/bootstrap.min.css';
-// need imports for pictures
+
+import Posts from './Components/Posts/Posts'
+import VidInfo from './Components/VideoInfo/VideoInfo'
+import RecentVids from './Components/RecentVideos/RecentVideo'
+
 import Catrergories from './Components/Categories/Categories';
 import Recents from './Components/Recents/RecentPics';
 import DogCategory from './Components/DogCategory/DogCategory';
 import PictureDescription from './Components/Description/Description';
 
+// need new imports for new videos
 
-
+// need to replace the paths for the videos
 function App() {
   return (
     <Router>
       <div className="App">
         
         <Switch>
-          <Route path = '/dogcategory' component ={DogCategory}></Route>
-          <Route path = '/home' component ={Recents}></Route>
-          <Route path = '/pictureDescription' component = {PictureDescription}></Route>
-          <Route path = '/' exact component = {Recents}></Route>
+          <Route path = '/VideoInfo' component ={VidInfo}></Route>
+          <Route path = '/Posts' component ={Posts}></Route>
+          <Route path = '/RecentVideo' component = {RecentVids}></Route>
+          <Route path = '/' exact component = {Posts}></Route>
         </Switch>
       </div>
     </Router>
